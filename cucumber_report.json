@@ -1,0 +1,213 @@
+[
+  {
+    "description": "    As a User\n    I can Login to the SpectraIQ homepage",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;verify-that-the-user-can-sigin-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify that the User can sigin using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1206400299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is navigating to  the uat.spectraiq.in page",
+            "match": {
+              "location": "features\\suppport\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5524960300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill the login details and submit",
+            "match": {
+              "location": "features\\suppport\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 880706199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I expect to see the expectedHomepage",
+            "match": {
+              "location": "features\\suppport\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15341599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328396899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;giving-feedback-and-report-it",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Giving feedback and report it",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 761558800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on feedback option in expand",
+            "match": {
+              "location": "features\\suppport\\steps.js:44"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30016353399,
+              "error_message": "TimeoutError: Waiting for selector `img[name=\"Feedback\"]` failed: Waiting failed: 30000ms exceeded\n    at new WaitTask (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\WaitTask.js:50:34)\n    at IsolatedWorld.waitForFunction (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Realm.js:25:26)\n    at CSSQueryHandler.waitFor (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\QueryHandler.js:171:95)\n    at async CdpFrame.waitForSelector (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:523:21)\n    at async CdpPage.waitForSelector (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:1367:20)\n    at async CreateUserAccount.feedback (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\features\\suppport\\login.js:55:10)\n    at async CreateUserAccount.<anonymous> (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\features\\suppport\\steps.js:45:6)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I give the feedback and report it",
+            "match": {
+              "location": "features\\suppport\\steps.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I will see the report in the feedback page",
+            "match": {
+              "location": "features\\suppport\\steps.js:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 294898000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;choosing-the-file-for-doing-template",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Choosing the file for doing template",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 999307100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on the data option in expand",
+            "match": {
+              "location": "features\\suppport\\steps.js:61"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 50442100,
+              "error_message": "Error: No element found for selector: .NavBar-active\n    at assert (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\assert.js:18:15)\n    at CdpFrame.click (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:730:40)\n    at async CreateUserAccount.data (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\features\\suppport\\login.js:80:5)\n    at async CreateUserAccount.<anonymous> (C:\\Users\\kpska\\Documents\\ZERO WEBAPP SECURITY\\features\\suppport\\steps.js:62:6)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "select the file format and choose the file",
+            "match": {
+              "location": "features\\suppport\\steps.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I will see the data from the choosen file",
+            "match": {
+              "location": "features\\suppport\\steps.js:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 322182899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

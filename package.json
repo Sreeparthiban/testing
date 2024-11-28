@@ -1,0 +1,24 @@
+{
+  "name": "login_to_the_spectraiq_homepage",
+  "version": "1.0.0",
+  "description": "to check the login page",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "keywords": [
+    "cucumber",
+    "gherkin",
+    "puppeteer",
+    "javascript"
+  ],
+  "author": "parthiban",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "chai": "^5.1.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "puppeteer": "^23.5.1"
+  }
+}
